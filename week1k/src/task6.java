@@ -30,8 +30,9 @@ class bank{
 public class task6 {
     public static void main(String[] args) {
         Scanner in=new Scanner(System.in);
+        String w=in.nextLine();
         double c=in.nextDouble();
-    bank a=new bank("scott",c);
+    bank a=new bank(w,c);
     a.check();
     }
 }
