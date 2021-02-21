@@ -4,7 +4,7 @@ import com.sun.xml.internal.ws.api.model.wsdl.WSDLOutput;
  B 类中，定义成员变量 numb，赋值为 20，抽象 showB 方法。
  C 类中，定义成员变量 numc，赋值为 30，重写 showA 方法，打印 numa，重写 showB
 方法，打印 numb，定义 showC 方法，打印 numc。  测试类中，创建 C 对象，调用 showA 方法，showB 方法，showC 方法。*/
-public class Task_8 {
+public class Task_9 {
     public static void main(String[] args) {
         C c = new C();
         c.showA();
